@@ -6,24 +6,27 @@ This project analyzes three months of international restaurant order data to ide
 - How customer order size impacts sales  
 The goal is to help restaurant managers improve menu design, pricing, and promotions using data.
 # Restaurant Order Analysis
-Project Type: SQL Data Analytics + Business Intelligence
-Dataset: Restaurant Orders (Quarterly Transaction Data)
-Tools: MySQL / PostgreSQL, Excel, Power BI / Tableau
+**Project Type:** SQL Data Analytics + Business Intelligence  
+**Dataset:** Restaurant Orders (Quarterly Transaction Data)  
+**Tools:** MySQL / PostgreSQL, Excel, Power BI / Tableau  
 # Data Structure
-The dataset contains two tables:
-## menu_items
-Column	Description
-menu_item_id	Unique ID for each menu item
-item_name	Name of the dish
-category	Cuisine or food type (Italian, Asian, etc.)
-Price	Price of the item
-## order_details
-Column	Description
-order_details_id	Line-level ID
-order_id	Unique order number
-order_date	Date of order
-item_id	Menu item purchased
-Each row in order_details represents one item in an order.
+The dataset contains two tables: <a href = "https://github.com/mizanur-analytics/restaurant-order-insights/blob/main/create_restaurant_db.sql">restaurant_db</a>
+## `menu_items`
+| Column        | Description                               |
+|---------------|-------------------------------------------|
+| menu_item_id  | Unique ID for each menu item              |
+| item_name     | Name of the dish                          |
+| category      | Cuisine or food type (Italian, Asian, etc.) |
+| price         | Price of the item                         |
+
+## `order_details`
+| Column            | Description               |
+|-------------------|---------------------------|
+| order_details_id  | Line-level ID             |
+| order_id          | Unique order number       |
+| order_date        | Date of order             |
+| item_id           | Menu item purchased       |
+Each row in `order_details` represents one item in an order.
 # Business Questions Answered
 ## Menu Performance
 •	How many items are on the menu?
