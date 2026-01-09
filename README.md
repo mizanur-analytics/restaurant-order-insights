@@ -5,6 +5,7 @@ This project analyzes three months of international restaurant order data to ide
 - Which cuisines and categories drive revenue  
 - How customer order size impacts sales  
 The goal is to help restaurant managers improve menu design, pricing, and promotions using data.
+![My_SQL_Restaurant_Projects_1](https://github.com/user-attachments/assets/610962b0-42ca-437e-b240-c88b092b3ef3)
 # Restaurant Order Analysis
 **Project Type:** SQL Data Analytics + Business Intelligence  
 **Dataset:** Restaurant Orders (Quarterly Transaction Data)  
@@ -67,7 +68,7 @@ Each row in `order_details` represents one item in an order.
 ## Product Performance
 - Certain dishes sell frequently but are underpriced  
 - Some expensive dishes sell rarely and reduce menu efficiency  
-*(Dashboard screenshot placeholder)*
+![My_SQL_Restaurant_Projects_3](https://github.com/user-attachments/assets/693246d2-dd09-4207-83d5-109863b749f5)
 # Project Insights
 ## Quantified Value
 - Top 20% of items generate nearly 60% of total orders  
