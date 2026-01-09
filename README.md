@@ -50,13 +50,6 @@ Each row in `order_details` represents one item in an order.
 4. Joined `order_details` with `menu_items`  
 5. Calculated item popularity and revenue per order  
 6. Built a dashboard for business users  
-# Dashboard
-## Power BI / Tableau dashboard with:
-- Total orders & revenue  
-- Category performance  
-- Most and least popular items  
-- Top spending customers  
-- Order size distribution  
 # Executive Summary
 ## Overview of Findings
 - A small number of menu items drive most sales  
