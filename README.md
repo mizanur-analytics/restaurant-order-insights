@@ -1,9 +1,9 @@
 # Project Background
-Restaurants generate massive amounts of order data, but without analysis, this data does not guide decision-making.
+Restaurants generate massive amounts of order data, but without analysis, this data does not guide decision-making.  
 This project analyzes three months of international restaurant order data to identify:
-•	What customers buy the most and least
-•	Which cuisines and categories drive revenue
-•	How customer order size impacts sales
+- What customers buy the most and least  
+- Which cuisines and categories drive revenue  
+- How customer order size impacts sales  
 The goal is to help restaurant managers improve menu design, pricing, and promotions using data.
 # Restaurant Order Analysis
 Project Type: SQL Data Analytics + Business Intelligence
